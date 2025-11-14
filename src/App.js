@@ -59,7 +59,7 @@ export default function App() {
           <button type="submit" className="btn-outline">{loading ? "Searching..." : "Search"}</button>
         </form>
 
-       <div className="error">{error}</div>
+     <div className="error">{error}</div>
         {weather && (
           <>
             <h2 className="weather-title">{weather.city}, {weather.country}</h2>
